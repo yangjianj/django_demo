@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<WLANProfile xmlns="http://www.microsoft.com/networking/WLAN/profile/v1">
+	<name>00:19:be:2e:00:06portal</name>
+	<SSIDConfig>
+		<SSID>
+			<hex>30303a31393a62653a32653a30303a3036706f7274616c</hex>
+			<name>00:19:be:2e:00:06portal</name>
+		</SSID>
+		<nonBroadcast>false</nonBroadcast>
+	</SSIDConfig>
+	<connectionType>ESS</connectionType>
+	<connectionMode>manual</connectionMode>
+	<MSM>
+		<security>
+			<authEncryption>
+				<authentication>open</authentication>
+				<encryption>none</encryption>
+				<useOneX>false</useOneX>
+			</authEncryption>
+		</security>
+	</MSM>
+</WLANProfile>
